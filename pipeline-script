@@ -11,8 +11,8 @@ pipeline {
         stage('Deploy LMS') {
             steps {
                 script {
-                    sh "chmod +x deploy.sh"
-                    sh "./deploy.sh"
+                    sh "chmod +x jenkins"
+                    sh "./jenkins"
                 }
             }
         }
